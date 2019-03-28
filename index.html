@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html ng-app = "AntonApp" ng-controller = "GameController">
+<head>
+	<title>Anton App</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+	<script type = "text/javascript" src = "app.js"></script>
+	<link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+	<h2>Total todos: {{todos.length}}</h2>
+	<ul class="unstyled">
+		<li ng-repeat="todo in todos">
+			<input type="checkbox" ng-model="todo.done">
+			<span class="done-{{todo.done}}">{{todo.text}}</span>
+		</li>
+	</ul>
+	
+	<form class="pudding-margin">
+		<input type="text" ng-model="formTodoText">
+		<button type="button"
+	required
+	ng-disabled="!formTodoText" ng-click="addTodo()"><i></i>Add</button>
+	</form>
+	<button class="pudding-margin" 
+	ng-click="cleanComplited()">Clean</button>
+
+	<div class="divStyle">
+		<li ng-repeat="object in masive">
+			<input type="checkbox" ng-model="object.done">
+			<h2 class="check-{{object.done}}">{{object.text}}</h2>
+		</li>
+	</div>
+
+	<div ng-controller="albumCtrl">
+		<div id="header">
+			<h2>{{currentImage.description}}</h2>
+		</div>
+		<dir id="albumImage">
+			<img class="albumImage" ng-src="{{currentImage.image}}" alt="{{currentImage.discription}}">
+		</dir>
+
+
+		<div id="thumbWrapper">
+			<ul id="thumbList"></ul>
+				<li class="thumbLi" ng-repeat="image in images" ng-click="setCurrentImage(image)">
+					<img class="thumbImg" ng-src="{{image.thumbnail}}" alt="{{image.description}}">
+				</li>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div ng-app = "AntonApp" ng-controller = "GameController">
+	<div>
+		Guesses. Left :: {{gusses}}
+	</div>
+	<div>
+		your Incorrect Guesses. Left :: 
+		<span ng-repeat = "letter in incorrectLettersChosen ">
+			{{letter}}
+		</span>
+	</div>
+	<div>
+		your correct Guesses. Left :: 
+		<span ng-repeat = "letter in correctLettersChosen ">
+			{{letter}}
+		</span>
+	</div>
+	<div> you have to guess {{displayWord}} </div>
+	<div>
+		
+		<div>
+			<input type="text" name="guess" ng-module="input.letter">
+			<button ng-click="letterChosen()">Submit</button>
+		</div>
+
+	</div>
+
+
+</div>
+ -->
+
+
+
+</body>
+</html>

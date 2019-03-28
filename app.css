@@ -1,0 +1,56 @@
+.done-true{
+	text-decoration: line-through;
+	color: brown;
+}
+.check-true{
+	text-decoration: line-through;
+	color: white;
+}
+.divStyle{
+	border: solid black;
+	padding: 10px;
+}
+.pudding-margin {
+	padding: 10px ;
+	margin: 2px;
+}
+
+#thumbWrapper {
+	width: 800px;
+	overflow: auto;
+}
+
+#thumbList {
+	white-space: nowrap;
+	margin: 0px;
+
+}
+
+.thumbLi {
+	display: inline;
+	list-style-type: none;
+	padding-left: 2px;
+	padding-right: 2px;
+	cursor: pointer;
+}
+
+.thumbLi:hover {
+	opacity: 0.5;
+}
+
+.thumbImg {
+	width: 150px;
+	height: 75px;
+	padding: 10px;
+}
+
+#albumImage {
+	width: 620px;
+	margin-bottom: 10px;
+
+}
+.albumImage {
+	display: block;
+	margin: auto;
+	
+}
