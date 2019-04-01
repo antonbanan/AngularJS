@@ -1,0 +1,138 @@
+.done-true{
+	text-decoration: line-through;
+	color: brown;
+}
+.check-true{
+	text-decoration: line-through;
+	color: white;
+}
+.divStyle{
+	border: solid black;
+	padding: 10px;
+}
+.pudding-margin {
+	padding: 10px ;
+	margin: 2px;
+}
+
+#thumbWrapper {
+	width: 800px;
+	overflow: auto;
+}
+
+#thumbList {
+	white-space: nowrap;
+	margin: 0px;
+
+}
+
+.thumbLi {
+	display: inline;
+	list-style-type: none;
+	padding-left: 2px;
+	padding-right: 2px;
+	cursor: pointer;
+}
+
+.thumbLi:hover {
+	opacity: 0.5;
+}
+
+.thumbImg {
+	width: 150px;
+	height: 75px;
+	padding: 10px;
+}
+
+#albumImage {
+	width: 620px;
+	margin-bottom: 10px;
+
+}
+.albumImage {
+	display: block;
+	margin: auto;
+	
+}
+
+h2{
+	background: #ffff;
+
+}
+
+/*svetofor4ik*/
+#redPlace {
+	background: ;
+
+}
+
+#yellowPlace {
+	background: ;
+
+}
+
+
+#greenPlace {
+	background: green;
+
+}
+
+
+.svetofor {
+	background-color: black;
+	border: 2px solid black;
+	height: 60px;
+	width: 20px;
+}
+
+
+section div  {
+  width: 1em;
+  height: 1em;
+  border: 2px solid grey;
+  border-radius: 50%;
+  background: black;
+}
+
+.csvLoader {
+	padding: 100px;
+}
+
+/*#output {
+	text-transform: lowercase;
+    font-size: 12px;
+    border-bottom: 1px solid #f5f5f5;
+    cursor: pointer;
+    position: relative;
+
+}
+
+table {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+text-align: left;
+border-collapse: collapse;
+border-radius: 20px;
+color: #452F21;
+}
+th {
+padding: 10px 8px;
+background: white;
+}
+table th:first-child {
+border-top-left-radius: 20px;
+}
+table th:last-child {
+border-top-right-radius: 20px;
+}
+td {
+border-top: 10px solid #F2906B;
+padding: 8px;
+background: white;
+}
+table td:first-child {
+border-bottom-left-radius: 20px;
+}
+table td:last-child {
+border-bottom-right-radius: 20px;
+}*/

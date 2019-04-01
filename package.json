@@ -1,0 +1,28 @@
+{
+  "name": "gulppr",
+  "version": "1.0.0",
+  "description": "\u001b[A\u001b[B\u001b[Bmy first gulp project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonbanan/AngularJS.git"
+  },
+  "author": "AntonWeb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonbanan/AngularJS/issues"
+  },
+  "homepage": "https://github.com/antonbanan/AngularJS#readme",
+  "dependencies": {
+    "gulp-nodemon": "^2.4.2",
+    "save-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
